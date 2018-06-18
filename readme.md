@@ -9,6 +9,6 @@ Given the following contract..
 > 
 > assert($collection->load() == $collection->getCount() > 0);
 > assert($collection->getByName('Albury Public School') instanceOf \school);
-> assert($collection->getByCode('1017') instanceOf \school);
+> assert($collection->getByCode(1017) instanceOf \school);
 
 Create a solution that fulfills the assertions.
